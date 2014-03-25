@@ -3,8 +3,8 @@ package:
   version: 0.2.5
 
 source:
-  git_url: http://github.com/tpn/enversion
-  git_tag: v0.2.5
+  fn: enversion-v0.2.5.tar.gz [not win]
+  url: https://github.com/tpn/enversion/archive/v0.2.5.tar.gz [not win]
 
 build:
   number: 1
@@ -17,7 +17,6 @@ requirements:
     - subversion
 
   run:
-    - psutil
     - python
     - subversion
 
